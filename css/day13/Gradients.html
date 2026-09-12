@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS: Gradients</title>
+    <style>
+      
+        .blue{
+            /* background-color: blue; */
+            color: white;
+            height: 100px;
+            width: auto;
+            /* background: linear-gradient(blue,white,red,green); */
+            /* background: linear-gradient(to right, blue,white,red,green); */
+            /* background: linear-gradient(to right, rgba(0,0,255,0.5),rgba(0,0,255,1)); */
+            background: radial-gradient(circle,blue 5%, white 15%, orange 80%);
+        }
+        .yellow{
+            background-color: yellow;
+            color: white;
+            height: 100px;
+            width: auto;
+                        /* background: linear-gradient(yellow,white); */
+                        /* background: #f71175;
+background: linear-gradient(90deg, rgba(247, 17, 117, 1) 50%, rgba(31, 204, 195, 1) 100%); */
+
+/* https://grabient.com/_gG0gHogI-gBagBPgH3gApgPJgAJhenhE1gAL */
+
+background: linear-gradient(315deg, #856cff 0.000%, #856cff 10.000%, #8568ff calc(10.000% + 1px), #8568ff 20.000%, #846eff calc(20.000% + 1px), #846eff 30.000%, #847aff calc(30.000% + 1px), #847aff 40.000%, #8487ff calc(40.000% + 1px), #8487ff 50.000%, #838fff calc(50.000% + 1px), #838fff 60.000%, #8390ff calc(60.000% + 1px), #8390ff 70.000%, #8387ff calc(70.000% + 1px), #8387ff 80.000%, #827aff calc(80.000% + 1px), #827aff 90.000%, #826eff calc(90.000% + 1px) 100.000%);
+        }
+        .green{
+            background-color: green;
+            color: white;
+            height: 100px;
+            width: auto;
+                        /* background: linear-gradient(green,white); */
+                        
+                      /* https://grabient.com/_gIJgPdgHzgO9gL_gDVgAPgCugB9hqQgIihIm */
+
+background: radial-gradient(135deg, #d0415e 0.000%, #d0415e 20.000%, #d65767 calc(20.000% + 1px), #d65767 40.000%, #db7971 calc(40.000% + 1px), #db7971 60.000%, #e0a57c calc(60.000% + 1px), #e0a57c 80.000%, #e6d886 calc(80.000% + 1px) 100.000%);
+        }
+    </style>
+</head>
+<body>
+    <h1>Styling Links</h1>
+    <div class="blue">
+        <p>Facebook</p>
+        <p><a href="http://www.facebook.com">Visit Link</a></p>
+    </div>
+    <div class="yellow">
+        <p>amazon</p>
+        <p><a href="http://www.amazon.com">Visit Link</a></p>
+    </div>
+    <div class="green">
+        <p>aeeron</p>
+        <p><a href="http://www.aeeron.com">Visit Link</a></p>
+    </div>
+</body>
+</html>
