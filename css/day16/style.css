@@ -1,0 +1,16 @@
+body{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    /* background: blue ; */
+    background-color: rgba(49, 160, 234, 0.773);
+    color: rgb(0,0,0)
+}
+
+/* p{
+    color: rgba(0 0 0 / 1)
+} */
+
+p{
+    color: #f6ae2d
+}

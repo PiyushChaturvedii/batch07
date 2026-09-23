@@ -1,0 +1,41 @@
+*{
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    /* border: 5px solid red; */
+}
+
+body{
+    font-size: 22px;
+    /* border: 5px solid red; */
+}
+
+main{
+    font-family: monospace;
+}
+
+button, input, textarea, select{
+    font: inherit;
+}
+
+h1, h2, h3{
+    color: blue;
+}
+
+p{
+    color: purple !important;
+}
+
+p{
+    color: red;
+}
+
+.gray{
+    color: gray;
+}
+
+#second{
+    font-style: italic;
+}
+.highlight{
+    text-transform: uppercase;
+    background-color: gold;
+}
