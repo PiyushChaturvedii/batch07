@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.layout{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-areas: 
+    "header header"
+    "sidebar main"
+    "footer footer"
+    ;
+    gap: 10px;
+}
+
+.header{
+    grid-area: header;
+    background: lightblue;
+}
+
+.sidebar{
+    grid-area: sidebar;
+    background: lightgreen;
+}
+
+.main{
+    grid-area: main;
+    background: lavender;
+}
+
+.footer{
+    grid-area: footer;
+    background: peru;
+}
+
+.layout>div{
+    padding: 30px;
+    text-align: center;
+}
